@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -23,7 +23,10 @@
   section { background:rgba(255,255,255,.07); border-radius:20px; padding:24px 28px; margin-top:28px; }
   h2 { color:#fff; margin-top:0; }
   a { color:var(--yellow); }
-  footer { text-align:center; margin-top:40px; font-size:14px; opacity:.8; }
+  footer { text-align:center; margin-top:40px; font-size:14px; opacity:.8; line-height:1.8; }
+  /* YouTube branding rules: badge on a single solid background, clickable, not the most prominent element */
+  .yt-badge { display:inline-block; background:#1e1b4b; border-radius:12px; padding:4px 12px; margin-top:4px; }
+  .yt-badge img { display:block; height:auto; }
 </style>
 </head>
 <body>
@@ -45,12 +48,16 @@
     <h2>Brainsplash Uploader</h2>
     <p>Brainsplash Uploader is a private tool used only by the owner of the Brainsplash channel. It uses the
        YouTube API Services to upload and schedule the channel's own videos. It is not offered to anyone else.</p>
-    <p>See the <a href="privacy.html">privacy policy</a> for details.</p>
+    <p>See the <a href="privacy.html">Privacy Policy</a> and <a href="terms.html">Terms of Service</a> for details.</p>
+    <a class="yt-badge" href="https://www.youtube.com/@BrainsplashQuiz">
+      <img src="developed-with-youtube.png" alt="Developed with YouTube" width="260">
+    </a>
   </section>
 
   <footer>
-    Contact: <a href="mailto:hamburgerseat4free@gmail.com">CONTACT_EMAIL_HERE</a> ·
-    <a href="privacy.html">Privacy policy</a>
+    Contact: <a href="mailto:hamburgerseat4free@gmail.com">hamburgerseat4free@gmail.com</a> ·
+    <a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Service</a><br>
+    Brainsplash is an independent channel and is not affiliated with or endorsed by YouTube or Google.
   </footer>
 </main>
 </body>
